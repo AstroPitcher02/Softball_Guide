@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+	<title>A Guide to Softball</title>
+</head>
+
+<body>
+	<!--padding-->
+	<style>
+		body {
+			padding: 0px 300px 20px; /* Adds space inside the edges of the page */
+			background-color: ##F5E7DA;
+			}
+
+    .content {
+      padding: 30px; /* Adds space inside this content box */
+      border-radius: 10px;
+    }
+	<!--Top nav bar design-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 70;
+            padding: 70;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: georgia, garamond;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #918d33;
+            padding: 15px 20px;
+        }
+        .navbar .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar .nav-links {
+            list-style: none;
+            display: flex;
+        }
+        .navbar .nav-links li {
+            margin: 0 15px;
+        }
+        .navbar .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        .navbar .nav-links a:hover {
+            color: #f4a261;
+        }
+        .menu-toggle {
+            display: none;
+            font-size: 24px;
+            color: white;
+            cursor: pointer;
+        }
+        @media (max-width: 768px) {
+            .navbar .nav-links {
+                display: none;
+                flex-direction: column;
+                background-color: #757236;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                width: 100%;
+            }
+            .navbar .nav-links.active {
+                display: flex;
+            }
+            .menu-toggle {
+                display: block;
+            }
+        }
+    </style>
+
+	<!--Nav bar list-->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #9b7653;
+            padding: 17px 17px;
+        }
+        .navbar .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar .nav-links {
+            list-style: none;
+            display: flex;
+        }
+        .navbar .nav-links li {
+            margin: 0 15px;
+        }
+        .navbar .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        .navbar .nav-links a:hover {
+            color: #9b7653;
+        }
+        .menu-toggle {
+            display: none;
+            font-size: 24px;
+            color: white;
+            cursor: pointer;
+        }
+        @media (max-width: 768px) {
+            .navbar .nav-links {
+                display: none;
+                flex-direction: column;
+                background-color: #9b7653;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                width: 100%;
+                padding: 10px 10px
+            }
+            .navbar .nav-links.active {
+                display: flex;
+            }
+            .menu-toggle {
+                display: block;
+            }
+          
+            <!--show window location-->
+            .active {
+                color: #B38F6F;
+                font-weight: bold; 
+            }
+		
+			</style>
+
+    <nav class="navbar">
+        <div class="logo">MyLogo</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="keywords.html"><span style="color: #EDD8C5">Keywords</span></a></li>
+            <li><a href="extra-resources.html">Extra Resources</a></li>
+        </ul>
+        <div class="menu-toggle">☰</div>
+    </nav>
+    
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+        
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    </script>
+    <!--Open nav bar menu-->
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+        
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    </script>
+<br>
+<br>
+  </style>
