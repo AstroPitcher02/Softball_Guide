@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+	<title>A Guide to Softball</title>
+</head>
+
+<body>
+	<!--padding-->
+	<style>
+		body {
+			padding: 0px 300px 20px; /* Adds space inside the edges of the page */
+			background-color: ##F5E7DA;
+			}
+
+    .content {
+      padding: 30px; /* Adds space inside this content box */
+      border-radius: 10px;
+    }
+	<!--Top nav bar design-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 70;
+            padding: 70;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: georgia, garamond;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #918d33;
+            padding: 15px 20px;
+        }
+        .navbar .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar .nav-links {
+            list-style: none;
+            display: flex;
+        }
+        .navbar .nav-links li {
+            margin: 0 15px;
+        }
+        .navbar .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        .navbar .nav-links a:hover {
+            color: #f4a261;
+        }
+        .menu-toggle {
+            display: none;
+            font-size: 24px;
+            color: white;
+            cursor: pointer;
+        }
+        @media (max-width: 768px) {
+            .navbar .nav-links {
+                display: none;
+                flex-direction: column;
+                background-color: #757236;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                width: 100%;
+            }
+            .navbar .nav-links.active {
+                display: flex;
+            }
+            .menu-toggle {
+                display: block;
+            }
+        }
+    </style>
+
+	<!--Nav bar list-->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #9b7653;
+            padding: 17px 17px;
+        }
+        .navbar .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar .nav-links {
+            list-style: none;
+            display: flex;
+        }
+        .navbar .nav-links li {
+            margin: 0 15px;
+        }
+        .navbar .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        .navbar .nav-links a:hover {
+            color: #9b7653;
+        }
+        .menu-toggle {
+            display: none;
+            font-size: 24px;
+            color: white;
+            cursor: pointer;
+        }
+        @media (max-width: 768px) {
+            .navbar .nav-links {
+                display: none;
+                flex-direction: column;
+                background-color: #9b7653;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                width: 100%;
+                padding: 10px 10px
+            }
+            .navbar .nav-links.active {
+                display: flex;
+            }
+            .menu-toggle {
+                display: block;
+            }
+          
+            <!--show window location-->
+            .active {
+                color: #B38F6F;
+                font-weight: bold; 
+            }
+		
+			</style>
+
+    <nav class="navbar">
+        <div class="logo">MyLogo</div>
+        <ul class="nav-links">
+            <li><a href="index.html"><span style="color: #EDD8C5">Home</span></a></li>
+            <li><a href="keywords.html">Keywords</a></li>
+            <li><a href="extra-resources.html">Extra Resources</a></li>
+        </ul>
+        <div class="menu-toggle">☰</div>
+    </nav>
+    
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+        
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    </script>
+    <!--Open nav bar menu-->
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+        
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    </script>
+<br>
+<br>
+  </style>
+	<!--title-->
+	<h1>A Guide to Softball</h1>
+	<img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL3B4OTY5NjMxLWltYWdlLWt3dnVxN3dhLmpwZw.jpg" alt="uneven image" width="500" height="350">
+<br>
+<br>
+<br>
+	<!--softball basics-->
+	<h2>Basics of Softball</h2>
+			<p>
+				Softball is one of the variations of baseball, split into two catagories, fastpitch and slowpitch. 
+				The objective of the game is to score as more runs than your opponent by hitting a ball and advancing around the four bases without getting out.
+				The game starts with the home team fielding. They are trying to get three outs before the batting team, or visitors, score runs. 
+				The top of the inning is when the home team is fielding. Once the home team gets three outs, the top of the inning is over, and it is the visitors turn to field, which is called the bottom of the inning.
+				Depending on time, there is usually 5 to 7 innings in a game, one inning over when the home or visitor team has both feilded and batted.
+			</p>
+			<br>
+			<br>
+		<!--fastpitch-->
+		<h3>Fastpitch Softball</h3>
+			<p>
+				Fastpitch is the more popular than slowpitch in competitive leagues. Here are the basic rules in fastpitch:
+			</p>
+<br>
+				<h4>1. There are 9 players fielding at all times</h4>
+					<p>
+						These positions are, Pitcher, Catcher, First Basemen, Second Basemen, Third Basemen, Shortstop, Right Fielder, Left Fielder, and Center Fielder.
+						They are on the defensive and working together to get three outs.
+					</p>
+					
+<br>	
+				<h4>2. You need 3 outs to get out of the inning</h4>
+					<p>To get outs, you can:</p>
+					<p> - Touch a base with the ball that the runner is forced to run to (Ground out)</p>
+					<p> - Tag a runner not on the base with the ball (Field out)</p>
+					<p> - Catch a hit ball before it hits the ground (Fly out)</p>
+					<p> - When three strikes are thrown and the batter does not hit them (Strikeout)</p>
+				
+<br>
+				<h4>3. The pitcher has to pitch the ball into the strike zone</h4>
+					<p>
+						The pitcher does a windmill motion and tries to get three strikes on the batter to get them out.
+						The strike zone is between the knees and right under the sternum. 
+						If the pitcher misses the strike zone, the pitch is called a ball, and if they throw four balls for one batter, the batter gets to go to first base.
+						If on the third strike, the batter swings and hits the ball foul, the count remains the same.
+					</p>
+					
+<br>
+				<h4>4. Stealing bases</h4>
+					<p>
+						Players on base can run, or 'steal' the next base without the ball being hit.
+						They leadoff from the base when the ball is released from the pitcher's hand (they can not leave earlier otherwise they would be out)
+						They can then run to the next base in front of them, and the fielding team can try and tag the runner out.
+					</p>
+				
+<br>
+				<h4>5. Base runninng</h4>
+					<p>
+						When the batter hits the ball, they run to first base, which along with home plate, are the only bases that you can over run.
+						If you are off the base at second or third, you can get tagged out.
+						To score a run, you have to safely touch all of the bases and then touch home plate.
+					</p>
+				
+<br>
+				<h4>6. Big hits</h4>
+					<p> -  Single -> when the batter gets to <strong>first base</strong> on their hit</p>
+					<p> -  Double -> when the batter gets to <strong>second base</strong> on their hit</p>
+					<p> -  Triple -> when the batter gets to <strong>third base</strong> on their hit</p>
+					<p> -  Home Run -> when the batter gets all the was to <strong>home plate</strong> on their hit</p>
+					<p> -  Grand Slam -> a home run, but when there are <strong>runners on all bases</strong></p>
+					
+<br>
+				<h4>7. Mercy Rules</h4>
+					<p>There are game and inning mercy rules.</p>
+					<h5>Game mercy rules</h5>
+						<p>The game mercy rules are when one team is winning by a certain number of runs or more, the game is over. This is 15 runs after the third inning, or 10 runs after the fourth inning.</p>
+					<h5>Innning mercy rules</h5>
+						<p>The inning mercy rules are when one team gets 5 runs in one inning. This then ends the inning without the defensive team needing to get 3 outs.</p>
+					<p>These rules can change depending on the league and tournament.</p>
+					
+			<br>
+			<br>
+		
+		<h3>
+			Slowpitch Softball
+		</h3>
+			<p>Slowpitch softball have many of the same rules as fastpitch, however, there are some key differences</p>
+			<br>
+				<h4>1. There are 10 players fielding at all times</h4>
+					<p>
+						In slow pitch, the pitcher is part of the other team, so the fielding team can have up to 9 players in the field, the 9th one being a rover.
+						The rover can be placed in the infield or outfield.
+					</p>
+<br>
+				<h4>2. The pitcher is on the batting team</h4>
+					<p>
+						The pitcher pitches the ball to their own team. Each batter gets 3 pitches, and if they don't hit on the third pitch, they are out, even if the pitches are not in the strikezone.
+						If the batter fouls on the third strike, they are still out.
+					</p>
+					
+<br>
+				<h4>4. Stealing bases</h4>
+					<p>
+						Unlike fastpitch, in slowpitch softball, there is no stealing in most leagues, however, this rule is determined by the league the team is.
+					</p>	
+<br>
+				<h4>5. Mercy Rules</h4>
+					<p>There are game and inning mercy rules.</p>
+					<h5>Game mercy rules</h5>
+						<p>The game mercy rules are when one team is winning by a certain
+					<h5>Innning mercy rules</h5>
+						<p>The inning mercy rules are when one team gets 5 runs in one in
+					<p>These rules can change depending on the league and tournament.</p>
+
+				
+				
+</body>
+</html>	
